@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONA ESTILISTA</title>
+    <link rel="shortcut icon" href="assets/images/salon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/main.css">
+    <script src="assets/main.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class='logo'>
+            <img src="assets/images/salon.svg" alt="Mona Salón de belleza">
+            <p>MONA ESTILISTA</p>
+        </div>
+    </header>
+    <main id='main'>
+
+        <section class="create-appointment">
+            <h1>Crear Cita</h1>
+            <form action="" class="form">
+
+                <label for="name">Nombre y Apellido: </label>
+                <input type="text" id="name" name='name'>
+
+                <label for="phone">Número de Teléfono: </label>
+                <input type="tel" id="phone" name='phone'>
+
+                <label for="date">Fecha: </label>
+                <input type="date" id="date" name='date'>
+
+
+                <label for="time">Hora: </label>
+                <input type="time" id="time" name='time'>
+
+                <label for="description">Descripción: </label>
+                <textarea name="description" id="description" cols="30" rows="10"></textarea>
+
+                <button class="create-appointment-btn">Crear Cita</button>
+
+            </form>
+
+        </section>
+        <section class='appointments-section'>
+            <h1>Citas</h1>
+            <div id="appointments">
+
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
